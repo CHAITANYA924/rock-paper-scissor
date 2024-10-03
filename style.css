@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.choise{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .choise:hover{
+   background-color: black;
+    cursor: pointer;
+
+   }
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.img:hover{
+
+}
+.choises{
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.score-bord{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+#msg{
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: inline;
+    padding: 15px;
+    border-radius: 20px;
+}
